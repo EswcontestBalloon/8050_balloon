@@ -1,0 +1,18 @@
+train:
+- ../datasets/fire/train
+- ../datasets/fire/train_gray
+- ../datasets/fire_custom/train
+- ../datasets/fire_custom/train_gray
+- ../datasets/flooding/train
+val:
+- ../datasets/fire/val
+- ../datasets/fire_custom/val
+- ../datasets/flooding/val
+test:
+- ../datasets/fire/test
+- ../datasets/fire_custom/test
+- ../datasets/flooding/test
+
+
+nc: 3
+names: ['no_problem', 'fire', 'flooding']
